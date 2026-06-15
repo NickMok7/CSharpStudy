@@ -12,3 +12,4 @@ D:\CSharpStudy\obj\Debug\net10.0\refint\CSharpStudy.dll
 D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.pdb
 D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.genruntimeconfig.cache
 D:\CSharpStudy\obj\Debug\net10.0\ref\CSharpStudy.dll
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.sourcelink.json
