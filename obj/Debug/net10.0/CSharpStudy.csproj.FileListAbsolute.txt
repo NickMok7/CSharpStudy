@@ -1,0 +1,14 @@
+D:\CSharpStudy\bin\Debug\net10.0\CSharpStudy.exe
+D:\CSharpStudy\bin\Debug\net10.0\CSharpStudy.deps.json
+D:\CSharpStudy\bin\Debug\net10.0\CSharpStudy.runtimeconfig.json
+D:\CSharpStudy\bin\Debug\net10.0\CSharpStudy.dll
+D:\CSharpStudy\bin\Debug\net10.0\CSharpStudy.pdb
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.AssemblyInfoInputs.cache
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.AssemblyInfo.cs
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.csproj.CoreCompileInputs.cache
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.dll
+D:\CSharpStudy\obj\Debug\net10.0\refint\CSharpStudy.dll
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.pdb
+D:\CSharpStudy\obj\Debug\net10.0\CSharpStudy.genruntimeconfig.cache
+D:\CSharpStudy\obj\Debug\net10.0\ref\CSharpStudy.dll
