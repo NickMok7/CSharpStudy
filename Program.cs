@@ -1,4 +1,4 @@
-﻿int hp = 100;
+﻿// int hp = 100;
 // string name = "동훈";
 
 // // System.Console.WriteLine(hp);
@@ -32,27 +32,72 @@
 // }
 // hp = 30;
 
+// for (int i = 0; i < 5; i++)
+// {
+//     hp -= 15;
+//     Console.WriteLine($"{i + 1}번째 공격! 남은 체력: {hp}");
+// }
+
+// if (hp <= 0)
+// {
+//     Console.WriteLine("사망");
+// }
+// else if (hp <= 30)
+// {
+//     Console.WriteLine("위험");
+// }
+// else if (hp <= 60)
+// {
+//     Console.WriteLine("주의");
+// }
+// else
+// {
+//     Console.WriteLine("양호");
+// }
+
+// void TakeDamage(int damage)
+// {
+//     hp -= damage;
+//     Console.WriteLine($"{damage} 데미지! 남은 체력: {hp}");
+// }
+
+// void Heal(int amount)
+// {
+//     hp += amount;
+//     Console.WriteLine($"{amount} 회복! 남은 체력: {hp}");
+// }
+
+// TakeDamage(30);
+// TakeDamage(25);
+// Heal(15);
+
+Character player = new Character();
+
+player.name = "동훈";
+player.hp = 100;
+
+Character monster = new Character();
+
+monster.name = "슬라임";
+monster.hp = 50;
+
+player.TakeDamage(30);
+monster.TakeDamage(20);
+
+Console.WriteLine($"{player.hp} 플레이어 체력!");
+Console.WriteLine($"{monster.hp} 몬스터 체력!");
+
+class Character
+{
+    public string name;
+    public int hp;
+
+    public void TakeDamage(int damage)
+    {
+        hp -= damage;
+        Console.WriteLine($"{name}, {damage} 데미지! 남은 체력: {hp}");
+    }
+}
 
 
-for (int i = 0; i < 5; i++)
-{
-    hp -= 15;
-    Console.WriteLine($"{i + 1}번째 공격! 남은 체력: {hp}");
-}
 
-if (hp <= 0)
-{
-    Console.WriteLine("사망");
-}
-else if (hp <= 30)
-{
-    Console.WriteLine("위험");
-}
-else if (hp <= 60)
-{
-    Console.WriteLine("주의");
-}
-else
-{
-    Console.WriteLine("양호");
-}
